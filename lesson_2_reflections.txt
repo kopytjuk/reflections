@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Git creates a new hidden directory .git and stores there the meta-data for all files in the current repo. We have to do it to let Git know which directory to track.
