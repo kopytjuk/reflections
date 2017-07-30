@@ -13,3 +13,6 @@ A: 	Fork: A copy of an foreign repo to own github account (github feature)
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: You can have full access to the repo even being offline.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: Push a branch with changes and inform the maintainer to review the new feature - he decides whether to merge or not. It is harder to track different requests.
