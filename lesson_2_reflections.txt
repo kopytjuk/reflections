@@ -12,3 +12,6 @@ A: We can set milestones to some commits to return to this point and reproduce s
 
 Q: How do the diagrams help you visualize the branch structure?
 A: We can see the history of changes without looking in text-based log for each branch and look for the common commit after them the branches separate.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: We create a new commit which contains the code from these two branches. We represent it that way because the output of the merge is a child of two tips of two branches.
