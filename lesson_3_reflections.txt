@@ -16,3 +16,6 @@ A: You can have full access to the repo even being offline.
 
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A: Push a branch with changes and inform the maintainer to review the new feature - he decides whether to merge or not. It is harder to track different requests.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: If I did a pull request (from a remote-branch to remote-master) and after this time there was a change in remote master I have to incorporate the changes to the remote-branch to have the pull request up to date.
