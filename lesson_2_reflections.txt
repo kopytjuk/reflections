@@ -15,3 +15,7 @@ A: We can see the history of changes without looking in text-based log for each 
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: We create a new commit which contains the code from these two branches. We represent it that way because the output of the merge is a child of two tips of two branches.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: 	Pros: New lines which weren't there are just added without any manual work by auto-merge. On the otherhand git indicates a conflict if there are changes on the same spot.
+	Cons: Auto merge cannot detect two same functions (with same functionality) with different names.
