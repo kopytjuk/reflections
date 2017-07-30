@@ -3,3 +3,6 @@ A: Git creates a new hidden directory .git and stores there the meta-data for al
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Only changes which are assigned to the staging area will be the content of the commit. You can make a lot of differences in the code base and incrementally stage and commit logical parts of the code.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: You can work in the working directory and stage one change into the staging area and commit. After that you can stage and commit another change.
