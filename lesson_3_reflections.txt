@@ -5,3 +5,8 @@ A:  - Backup
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: 
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: 	Fork: A copy of an foreign repo to own github account (github feature)
+	Clone: A repa copy from a location (github, local) to a machine with write rights.
+	Branch: New commit id. I would use it in order to introduce new features or experiments in my own repo.
